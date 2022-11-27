@@ -1,0 +1,84 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compresive Strength of Concrete</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+    
+    
+</head>
+
+<body>
+    <div>
+        <p><h1 class="heading">COMPRESIVE STRENGTH OF CONCRETE</h1></p>
+           
+    </div>
+    
+
+    <br>
+
+
+    <div>
+        <form action="{{ url_for('predict')}}" method="post">
+            
+            <div>
+                <h2 class="cement">Cement</h2>
+                <p class="cement"><input type="number" name="cement"   placeholder="quantity" required="required" step='any'></p>
+            </div>
+            
+            <div>
+                <h2 class="bfs">Blast Furance Slag</h2>
+                    
+                <p class="bfs"><input type="number" name="Blast Furance Slag"  placeholder="quantity "  required="required" step="any"></p>
+                
+            </div>
+            
+            <div>
+                <h2 class="fly_ash">Fly Ash</h2>
+                <p class="fly_ash"><input type="number" name="Fly Ash" id="Fly Ash"  placeholder="quantity"  required="required" step="any"></p>
+            </div>
+            
+            <div>
+                <h2 class="water">Water </h2>
+                <p class="water"><input type="number" name="Water" id="Water"  placeholder="quantity"  required="required" step="any"></p>
+
+            </div>
+            
+            <div>
+                <h2 class="sp">Super Plasticizer</h2>
+                <p class="sp"><input type="number" name="Super Plasticizer" id="Super Plasticizer"  placeholder="quantity"  required="required" step="any"></p>
+                                 
+            </div>
+            
+            <div>
+                <h2 class="c_a" >Coarse Aggregate</h2>
+                <p class="c_a"><input type="number" name="Coarse Aggragate" id="Coarse Aggragate" placeholder="quantity"  required="required" step="any"></p>
+                              
+            </div>
+              
+            <div >
+                <h2 class="f_a">Fine Aggregate</h2>
+                <p class="f_a"><input type="number" name="Fine Aggragate" id="Fine Aggragate"  placeholder="quantity"  required="required" step="any"></p>
+                              
+            </div>
+            <div>
+                <h2 class="age">Age</h2>
+                <p class="age"><input type="number" name="Age" id="Age" placeholder="days"  required="required" step="any"></p>
+                    
+            </div>
+            <br>
+            <button type="submit" value="Submit" class="btn btn-secondary" style="color:rgb(55, 9, 119) ;">Result</button>
+            <h2 style="color:rgb(176, 170, 170);font-style: italic;font-weight: bold;";> {{ prediction_text }} </h2>
+        </form>
+
+        <br>
+            <a href="https://github.com/sreeeharsha4?tab=repositories"><img src="static\107139_gray_circle_github_icon.png" height="50";></a>
+            <a href="mailto:sreeharshakprs@gmail.com"><img src="static\575104.png" height="50"></a>
+        <p><h2 class="name">@ SREE HARSHA K © 2022</h2></p>
+
+    </div>
+        
+</body>
+
+</html>

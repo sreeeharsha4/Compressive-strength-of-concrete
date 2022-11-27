@@ -1,0 +1,138 @@
+body{
+    background-image: url("csc.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:inherit;
+    background-size: cover;
+    
+}
+.heading{
+    text-shadow: 2px 5px 5px rgb(181, 3, 3);
+    color: rgba(220, 233, 102, 0.86);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    animation: harsha;
+    animation-play-state: running;
+    animation-iteration-count:initial;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-duration:6s;
+     
+}
+
+@keyframes harsha{
+    from{margin-left : 100%}
+    to{margin-left:0%}
+}
+.cement{
+    color:rgb(178, 233, 225); 
+    font-style: oblique; 
+    font-weight: bolder; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: harsha;
+    animation-play-state: running;
+    animation-iteration-count:initial;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-duration:6s;
+}
+.bfs{
+    color:rgb(178, 233, 225); 
+    font-style: oblique; 
+    font-weight: bolder; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: harsha;
+    animation-play-state: running;
+    animation-iteration-count:initial;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-duration:6s;
+}
+.fly_ash{
+    color:rgb(178, 233, 225); 
+    font-style: oblique; 
+    font-weight: bolder; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: harsha;
+    animation-play-state: running;
+    animation-iteration-count:initial;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-duration:6s;
+}
+.water{
+    color:rgb(178, 233, 225); 
+    font-style: oblique; 
+    font-weight: bolder; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: harsha;
+    animation-play-state: running;
+    animation-iteration-count:initial;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-duration:6s;
+}
+.sp{
+    color:rgb(178, 233, 225); 
+    font-style: oblique; 
+    font-weight: bolder; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: harsha;
+    animation-play-state: running;
+    animation-iteration-count:initial;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-duration:6s;
+}
+.c_a{
+    color:rgb(178, 233, 225); 
+    font-style: oblique; 
+    font-weight: bolder; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: harsha;
+    animation-play-state: running;
+    animation-iteration-count:initial;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-duration:6s;
+}
+.f_a{
+    color:rgb(178, 233, 225); 
+    font-style: oblique; 
+    font-weight: bolder; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: harsha;
+    animation-play-state: running;
+    animation-iteration-count:initial;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-duration:6s;
+}
+.age{
+    color:rgb(178, 233, 225); 
+    font-style: oblique; 
+    font-weight: bolder; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: harsha;
+    animation-play-state: running;
+    animation-iteration-count:initial;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-duration:6s;
+}
+.name{
+    color:rgb(178, 233, 225); 
+    font-style: oblique; 
+    font-weight: bolder; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: harsha;
+    animation-delay: 3s;
+    animation-play-state: running;
+    animation-iteration-count:initial;
+    animation-timing-function: ease-in;
+    animation-duration:10s;
+}
+.image{
+    src="107139_gray_circle_github_icon.png";
+    height="50";
+}
